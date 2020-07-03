@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".projentry">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/projentry_bt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="登录界面" />
+
+        <Button
+            android:id="@+id/projentry_bt2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="停车界面" />
+
+        <Button
+            android:id="@+id/projentry_bt3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="交费界面" />
+
+        <Button
+            android:id="@+id/projentry_bt4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="报修界面" />
+
+        <Button
+            android:id="@+id/projentry_bt5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="预定家政服务界面" />
+
+        <Button
+            android:id="@+id/projentry_bt6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="主页面" />
+
+        <TextView
+            android:id="@+id/projentry_tv_tip"
+            android:layout_width="match_parent"
+            android:layout_height="99dp"
+            android:text="注意：本界面是工程入口，在项目完成后将会被删除或修改为其他用途，使用本界面，就不需要自己设置程序入口，只需要将对应的按钮与自己写的模块绑定，方便进行模块的测试。"
+            android:textSize="18sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
